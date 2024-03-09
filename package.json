@@ -5,7 +5,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "industrious-assistant": "tsc && node build/industrious-assistant/index.js"
+    "industrious": "tsc && node build/industrious-assistant/index.js",
+    "translator": "tsc && node build/translator-assistant/index.js"
   },
   "author": "",
   "license": "ISC",

@@ -7,9 +7,14 @@
     "preserveConstEnums": true,
     "outDir": "./build",
     "sourceMap": true,
-    "skipLibCheck": true // for tensorflow error-free compilation
+    "skipLibCheck": true, // for tensorflow error-free compilation,
+    "resolveJsonModule": true
   },
 
-  "include": ["industrious-assistant/**/*"],
+  "include": [
+    "industrious-assistant/**/*",
+    "translator-assistant/**/*",
+    "translator-assistant/**/*.json"
+  ],
   "exclude": ["**/*.spec.ts"]
 }

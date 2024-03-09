@@ -1,0 +1,1328 @@
+{
+    "general": {
+        "loading": "Loading",
+        "learn_more": "Learn more",
+        "back": "Back",
+        "go_back": "Go Back",
+        "no_go_back": "No, Go Back",
+        "continue": "Continue",
+        "reserve": "Reserve",
+        "reserved": "Reserved",
+        "account_name": "Account name",
+        "quantity": "Quantity",
+        "required_field": "This is a required field",
+        "page_error": "Something went wrong and an error occurred. Please refresh the page and try again for accurate information.",
+        "see_count_more": "See {{count}} more",
+        "see_more": "See more",
+        "see_less": "See less",
+        "location": "Location",
+        "date": "Date",
+        "edit": "Edit",
+        "view": "View",
+        "no_results": "No results found. Try another search term.",
+        "desk": "Desk",
+        "deskXofY": "DESK {{number}} of {{total}} ",
+        "office": "Office",
+        "officeAndDesk": "{{officeInfo}} • Desk {{deskNumber}}",
+        "cancel": "Cancel",
+        "yes_cancel": "Yes, Cancel",
+        "yes_continue": "Yes, Continue",
+        "save": "Save",
+        "update": "Update",
+        "save_updates": "Save Updates",
+        "save_changes": "save changes",
+        "updates_saved": "Your updates have been saved",
+        "updates_failed": "An error occured and your updates were not saved. Please try again.",
+        "floor": "Floor {{floorName}}",
+        "na": "N/A",
+        "none": "None",
+        "close": "Close",
+        "account": "Account",
+        "filter_by": "Filter by",
+        "upcoming": "Upcoming",
+        "remove": "Remove",
+        "desk_number": "Desk {{deskNumber}}",
+        "meeting_room": "Meeting Room",
+        "openWorkspace": "Open Workspace",
+        "field_limited": "This field is limited to {{count}} characters",
+        "num_hours": "{{count}} hour",
+        "num_hours_plural": "{{count}} hours",
+        "on": "On",
+        "off": "Off",
+        "unlimited": "Unlimited",
+        "yes": "Yes",
+        "no": "No",
+        "cancelled": "Cancelled",
+        "your_locations": "Your Locations",
+        "disabled_location": "This location has limited access. Reach out to your Member Experience Manager for more information.",
+        "image_size_error": "The file you have selected is too large. The maximum size is 7MB.",
+        "industrious_member": "Industrious Member",
+        "licensed": "Licensed",
+        "table": {
+            "filters": {
+                "cta": "Apply Filters",
+                "clear": "Clear Filters",
+                "title": "Filters",
+                "filters_prefix": "Filters selected: "
+            }
+        },
+        "hours": "hours",
+        "onDemand": "On Demand"
+    },
+    "home": {
+        "cm": "I'm here to help! If you have any questions or need assistance feel free to email me.",
+        "virtual_member_banner": "You are a Virtual Member at Industrious. To reserve open workspaces, private offices, or attend events, ",
+        "virtual_member_banner_cta": "upgrade your membership.",
+        "global_access_banner_start": "To visit and reserve workspaces at additional Industrious locations, ",
+        "global_access_banner_action": "contact your Member Experience Manager",
+        "global_access_banner_end": " to get the Global Network Access add-on.",
+        "global_access_email": {
+            "subject": "Interested in Global Network Access - {{accountName}}",
+            "body": "Hi, I’m interested in getting the global network access add-on for my membership ({{accountName}}) and would like to learn more."
+        },
+        "groupings": {
+            "dropdown": {
+                "label": "VIEWING"
+            }
+        },
+        "navigation_ctas": {
+            "office": {
+                "cta": "Reserve a Private Office",
+                "description": "For individuals and teams, private workspaces for the day with select amenities"
+            },
+            "conference": {
+                "cta": "Reserve a Meeting Room",
+                "description": "Private conferencing spaces available by the half hour or hour",
+                "unit": "Hours"
+            },
+            "desk": {
+                "cta": "Reserve a Desk Within Your Office",
+                "description": "A dedicated desk for the day within your team's office"
+            },
+            "openWorkspace": {
+                "cta": "Reserve an Open Workspace",
+                "description": "A place to sit with a table in the common area",
+                "unit": "Unlimited"
+            },
+            "virtual_tooltip": "Upgrade your membership to access this feature."
+        },
+        "professional_mailing_adr_tile": {
+            "title": "YOUR PROFESSIONAL MAILING ADDRESS",
+            "default_company": "Your Company Name",
+            "mail_info": "Your mail can be picked up from the mailroom during business hours—Monday to Friday, 8:00am-5:00pm, excluding unstaffed holidays. If you have opted in for mail forwarding, your mail will be sent to the requested mailing address."
+        },
+        "upcoming_events": {
+            "title": "UPCOMING EVENTS",
+            "event_spotlight_title": "EVENT SPOTLIGHT",
+            "disclaimer": "Preview what’s happening at {{locationName}}. To attend events, upgrade your membership."
+        }
+    },
+    "roomBooking": {
+        "reservation_load_error": "You do not have access to this reservation, or it no longer exists.",
+        "amenities": {
+            "label": "AMENITIES"
+        }
+    },
+    "deskUsage": {
+        "search_by_account": "Search by account or member name",
+        "all_accounts": "All Accounts",
+        "desk_usage": "Member Account Activity",
+        "table": {
+            "columns": {
+                "account_name": "ACCOUNT NAME",
+                "team_members": "TEAM MEMBERS",
+                "decision_maker": "DECISION MAKER(S)",
+                "account_balance": "{{month}}: ACCOUNT BALANCE",
+                "meeting_room_hours_balance": "Meeting room hours: {{balance}}",
+                "active": {
+                    "label": "Status",
+                    "active": "Active",
+                    "inactive": "Inactive",
+                    "filter": "Show active only",
+                    "active_description": "Accounts with active memberships",
+                    "inactive_description": "Accounts without active memberships"
+                }
+            },
+            "empty": {
+                "title": "No accounts yet.",
+                "description": "You'll be able to see future accounts here."
+            },
+            "options": {
+                "manage": "See all activity"
+            }
+        }
+    },
+    "dayPassesDrawer": {
+        "day_pass_balance": "Day Pass Balance",
+        "increase_decrease_balance": "Increase or decrease the balance of day passes remaining to reflect the correct number. You can also type in the correct balance.",
+        "adjust_day_passes": "Adjust Day Passes",
+        "ensure_day_passes_account": "Ensure this account has the correct amount of day passes so that members can reserve oasis desks.",
+        "invalid_range": "Has an invalid range",
+        "save_adjustment": "Save Adjustment"
+    },
+    "deskAdmin": {
+        "addons": {
+            "av_kit": "AV kit",
+            "whiteboard": "Whiteboard kit",
+            "descriptions": {
+                "av_kit": "Includes a TV, conference camera, and fully adjustable AV cart",
+                "whiteboard": "Includes a mobile whiteboard, markers, post-it notes and other office supplies"
+            }
+        },
+        "upcoming": {
+            "title": "Upcoming Reservations",
+            "empty_title": "There are no upcoming reservations.",
+            "flexTitle": "FLEX",
+            "reservationTitle": "ACCESS",
+            "action": "View all reservations",
+            "desk": "{{officeName}} • Desk {{deskNumber}}",
+            "flex_desk": "{{officeName}}, {{deskName}}"
+        },
+        "availability": {
+            "title": "Availability",
+            "building_title": "Building something new.",
+            "building_desc": "Our team is busy building a map that will live here. Please check back soon."
+        },
+        "title": "Reservable Offices"
+    },
+    "reserveOffice": {
+        "title": "Reserve a Private Office",
+        "date_lbl": "date",
+        "button_text": "See {{count}} office(s)",
+        "button_text_no_office": "0 office available",
+        "reserved_by_teammate": "Reserved by Teammate",
+        "reserved_by_me": "Reserved by me",
+        "seats": "seats",
+        "seat": "seat",
+        "floor": "Floor",
+        "count": "{{countAvailable}} of {{countTotal}} offices available",
+        "edit_your_search": "Edit Your Search",
+        "view_types": {
+            "list": "List",
+            "floorplan": "Floorplan",
+            "show_list": "Show List",
+            "show_floorplan": "Show Floorplan"
+        },
+        "no_office_available_title": "There is no office available.",
+        "no_office_available_desc": "Please try another floor, date, or location.",
+        "confirmation": {
+            "title": "Office Reservation Confirmed",
+            "subtitle": "A confirmation has been emailed to the reservation owner",
+            "attendees_title": "Who will be there for this reservation?",
+            "attendees_desc": "For building security purposes, please let us know who will be attending.",
+            "attendees_btn": "Register Attendees",
+            "attendees_email_subject": "Attendees | {{office}}, {{date}} | {{location}}",
+            "attendees_email_body": "Hello Industrious team,%0D%0A%0D%0ABelow is a list of names of everyone attending my upcoming office reservation:%0D%0A    -%0D%0A%0D%0A%0D%0A%0D%0A—--%0D%0APlease include full names of all attendees including Industrious members and non-member guests for building security and our staff to be ready for your reservation.",
+            "meeting_room_desc": "Need additional conferencing space while you're working at {{locationName}}?",
+            "meeting_room_btn": "Reserve A Meeting Room"
+        },
+        "day_pass": "1 day pass"
+    },
+    "officeReservationSummary": {
+        "title": "Reservation Summary",
+        "location_lbl": "LOCATION",
+        "date_lbl": "DATE",
+        "office_lbl": "PRIVATE OFFICE",
+        "floor": "Floor",
+        "owner_lbl": "RESERVATION OWNER *",
+        "owner_desc": "Select who will be able to view and manage this reservation.",
+        "account_lbl": "ACCOUNT",
+        "day_passes_balance": "{{count}} day pass",
+        "day_passes_balance_plural": "{{count}} day passes",
+        "price_lbl": "PRICE",
+        "disclaimer": "Industrious reserves the right to change your reservation at any time in order to accomodate the changing needs of our members. Reservations can be cancelled at no charge up to 5 pm the day before.",
+        "cta": "Confirm Reservation",
+        "cancel_cta": "Cancel Reservation",
+        "cancel_snack": "Your reservation has been cancelled.",
+        "day_pass": "1 day pass",
+        "unlimited_day_passes": "Unlimited day passes"
+    },
+    "navigation": {
+        "beta": "beta",
+        "new": "New",
+        "menu": {
+            "deskReservation": "Desk Reservation",
+            "deskUsage": "Account Activity",
+            "desk": "Desk",
+            "checkin": "Check-In Activity",
+            "package": "Package Alerts",
+            "company": "Company Profile",
+            "profile": "Your Profile",
+            "events": "Menu & Events",
+            "faq": "FAQ",
+            "flexdesks": "Flex Desks",
+            "forgotpassword": "Forgot Password",
+            "resetpassword": "Reset Password",
+            "groupmanagement": "Group Management",
+            "membermanagement": "Member Management",
+            "home": "Home",
+            "login": "Sign In",
+            "signout": "Sign Out",
+            "message": "Message Members",
+            "onboarding": "Onboarding",
+            "perks": "Member Benefits",
+            "rentable": "Rentable Spaces",
+            "meetingroom": "Reserve a Meeting Room",
+            "meetingroomshort": "Meeting Room",
+            "settings": "Notification Settings",
+            "billing": "Billing",
+            "manageOffice": "Manage Offices",
+            "manageDesks": "Manage Desks",
+            "alldeskreservations": "All Office Reservations",
+            "account_activity": "Account Activity",
+            "account_overview": "Account",
+            "account_settings": "Team Permissions",
+            "visiting_members": "Daily Reservations",
+            "visiting_members_short": "Daily Reservations",
+            "openWorkspace": "Open Workspace",
+            "reserve_offices": "Office",
+            "reserve_offices_short": "Office"
+        },
+        "grouping": {
+            "reception": "Reception",
+            "reserve": "Reserve",
+            "home": "Home"
+        }
+    },
+    "flexDesks": {
+        "balance": {
+            "available_days": "{{balance}} available days ",
+            "unlimited_free": "Unlimited free days ",
+            "no_remaining": "No remaining free days "
+        }
+    },
+    "events": {
+        "create": {
+            "add_type": "Add an event type",
+            "add_type_q": "Don't see the event type you need?",
+            "grouping_label": "WHO IS THIS EVENT FOR?*",
+            "grouping_placeholder": "Select a Group",
+            "grouping_switch_label": "Is this a private event?"
+        },
+        "eventRsvps": {
+            "viewEventAttendees": "View Attendees",
+            "eventRsvpAttend": "Attend",
+            "eventRsvpAttending": "Attending"
+        }
+    },
+    "locationEditor": {
+        "change_location": "Change location",
+        "change_group": "Change group",
+        "current_loc": "Current Location",
+        "home_cta": "View home location",
+        "search_placeholder": "Search by location name or city",
+        "select_location": "Select a Location"
+    },
+    "settings": {
+        "communityManager": {
+            "title": "Member Experience Manager",
+            "subtitle": "Location specific messages and alerts from your Member Experience Manager",
+            "events": {
+                "alerts": {
+                    "title": "Messaging",
+                    "subtitle": "Location specific messages and alerts from your Member Experience Manager"
+                }
+            }
+        },
+        "eReception": {
+            "title": "Reception",
+            "subtitle": "Visitor, Food Delivery and Package Alerts",
+            "events": {
+                "alerts": {
+                    "title": "Reception Alerts",
+                    "subtitle": ""
+                }
+            }
+        },
+        "occasions": {
+            "title": "Events",
+            "events": {
+                "updates": {
+                    "title": "Events Updates",
+                    "subtitle": "Updates or cancellations to an event you have RSVP'd to"
+                },
+                "reminders": {
+                    "title": "Events Reminders",
+                    "subtitle": "A reminder 24 hours before an event you have RSVP'd to"
+                }
+            }
+        },
+        "roomBooking": {
+            "title": "Room Reservations",
+            "events": {
+                "updates": {
+                    "title": "Reservation Updates",
+                    "subtitle": "Reservation created, reservation edited, reservation cancelled"
+                },
+                "reminders": {
+                    "title": "Reservation Reminders",
+                    "subtitle": "A reminder the day before your upcoming reservation"
+                }
+            }
+        },
+        "oasisReservation": {
+            "title": "Office Reservations",
+            "events": {
+                "updates": {
+                    "title": "Reservation Updates",
+                    "subtitle": "Reservation created, reservation edited, reservation cancelled"
+                },
+                "reminders": {
+                    "title": "Reservation Reminders",
+                    "subtitle": "A reminder the day before your upcoming reservation"
+                },
+                "alerts": {
+                    "title": "Low Day Pass Balance Alert",
+                    "subtitle": "Alert when your account day pass balance is down to 2 day passes"
+                }
+            }
+        },
+        "openWorkspaces": {
+            "title": "Open Workspace Reservations",
+            "events": {
+                "updates": {
+                    "title": "Reservation Updates",
+                    "subtitle": "Reservation created, reservation edited, reservation cancelled"
+                }
+            }
+        }
+    },
+    "reserveDesk": {
+        "title": "Reservation Summary",
+        "disclaimer": "Reservations can be cancelled at no charge up to 15 hours before the start of the reservation.",
+        "cta": "Confirm Reservation",
+        "cancel_cta": "Cancel Reservation",
+        "update_cta": "Update Reservation",
+        "member_placeholder": "Search by name",
+        "member_label": "Desk is for: *",
+        "member_label_not_required": "Desk is for:",
+        "cancel_snack": "Your reservation has been cancelled.",
+        "cancel_confirmation": "Are you sure you want to cancel this reservation?",
+        "addons": {
+            "title": "Add-Ons",
+            "desc": "We will do our best to fulfill your add-on request."
+        },
+        "available_desks": "{{count}} available desks",
+        "find_desk_cta": "Find a Desk",
+        "edit_search": "Edit Your Search",
+        "empty_title_desk_selected": "You have no desks selected.",
+        "empty_description_desk_selected": "Select a desk to complete your reservation.",
+        "tooltip_review_selected_desk": "Click here to review your selected desks and complete your reservation.",
+        "tooltip_select_different_desk": "To select a different desk, remove a current desk selection.",
+        "tooltip_select_more_desk": "To select more desks for your reservation click here or close this page. You can return to this page when you want to complete your reservation.",
+        "select_another_desk": "Select another desk",
+        "submit_conflict": "Sorry, your selected desk is now unavailable. Please select a different desk.",
+        "submit_conflict_plural": "Sorry, your selected desks are now unavailable. Please select different desks.",
+        "date_conflict": "Select a new desk",
+        "success_confirmation": {
+            "title": "Desk Reservation Confirmed",
+            "message": "Need a meeting room while you’ll be working at {{locationName}}? Don’t forget to",
+            "cta": "Reserve a meeting room"
+        }
+    },
+    "floorPlan": {
+        "legend": {
+            "selectedOffice": "Selected office",
+            "availableOffice": "Available office",
+            "unavailableOffice": "Unavailable office",
+            "userReservedOffices": "Your reservation/\nTeammate"
+        },
+        "commonSpace": "Common Space",
+        "bathroom": "Bathroom",
+        "genderedBathroom": "{{gender}} Bathroom"
+    },
+    "deskFloorPlan": {
+        "legend": {
+            "assignedOffice": "Assigned office",
+            "availableDesk": "Available desk",
+            "flexDeskOffice": "Flex Desk office",
+            "reservableOffice": "Access office",
+            "reservableDesk": "Reservable desk",
+            "unreservableDesk": "Unreservable desk",
+            "unassignedOffice": "Unassigned office",
+            "unavailableDesk": "Unavailable desk",
+            "selectedDesk": "Selected desk",
+            "utilizedOffice": "Licensed office",
+            "userReservedDesk": "Your reservation/\nTeammate"
+        },
+        "loading": "Loading floorplan",
+        "manageWorkspaces": {
+            "description": "Select an Access or Unassigned office to edit it.",
+            "licensed_offices_error": "{{ officeName }} is licensed in Salesforce but is showing as a reservable Access office to members. If this is incorrect, please turn this office to Unassigned.",
+            "licensed_offices_error_multiple": "{{ count }} offices are licensed in Salesforce but are showing as reservable Access offices to members. If this is incorrect, please turn these offices to Unassigned."
+        },
+        "deskReservation": {
+            "description": "Select a green desk to reserve.",
+            "description_edit": "Select a new date, location, or desk.",
+            "description_edit_2": "To select a different desk, remove your current desk selection.",
+            "no_more_desks_selected": "No more desks can be selected.",
+            "description_reach_community_manager": "You can reach out to your team administrator about making additional reservations",
+            "description_select_another_desk": "To select a new desk, remove a current desk selection.",
+            "teammates": "Teammates",
+            "desksAvailable": "{{ available }} of {{ total }} desks available",
+            "selected": "{{count}} selected",
+            "no_desks_available_title": "There are no desks available.",
+            "no_desks_available_desc": "Please try another date or location.",
+            "existing_reservation": "You’ve reserved another desk in this room."
+        },
+        "tooltips": {
+            "unselectable_desk": "Please remove your current desk selection to select a different desk.",
+            "desk_conflict": "Your selected desk is unavailable on this date. Please select another desk."
+        },
+        "deskStatus": {
+            "reserved": "Reserved",
+            "notReservable": "Not Reservable",
+            "you": "You",
+            "teammate": "Teammate",
+            "available": "Available"
+        }
+    },
+    "manageOffices": {
+        "title": "Manage Offices",
+        "count": "{{nbReservableOffices}} of {{count}} office Reservable by the day",
+        "count_plural": "{{nbReservableOffices}} of {{count}} offices Reservable by the day",
+        "description": "Reservable offices are live on Member Portal and available to be reserved by members. To hide an office and restrict bookings, update the status to Not Reservable.",
+        "empty_title": "There are no floor plans available for this location.",
+        "empty_floor_title": "There is no floor plan available for Floor {{floorName}} at this location.",
+        "no_floorplan_yet": "This location does not have a floorplan yet.",
+        "no_workspaces_floor": "There are no offices to manage on this floor.",
+        "no_workspaces_location": "There are no offices to manage on this location.",
+        "no_workspaces_cta": "Submit a Zendesk Ticket",
+        "no_offices": "This floor does not have available offices.",
+        "empty_description": "If this doesn’t seem right, please reach out to support.",
+        "focused_back": "See All Offices",
+        "confirm_unassign_part1": "Turning {{officeName}} into an unassigned office will cancel all future member reservations in this office. View ",
+        "confirm_unassign_part2": " to see these future reservations.",
+        "see_desks": "See Desk List",
+        "confirm_unassign_desk_part1": "Making Desk {{deskNumber}} unreservable will cancel all future member reservations for this desk. View ",
+        "confirm_unassign_desk_part2": " to see these future reservations.",
+        "all_desk_reservations": "All Desk Reservations",
+        "unassigned_disclaimer": "Desks in an unassigned office cannot be designated as reservable.",
+        "office_status": "Office status:",
+        "select_office_status_lbl": "office status",
+        "desks_reservable": "{{nbDesks}} of {{count}} desk reservable",
+        "desks_reservable_plural": "{{nbDesks}} of {{count}} desks reservable",
+        "licensed_offices": "Licensed offices cannot be designated as Reservable.",
+        "licensed_offices_error": "This office is licensed in Salesforce but is showing as a reservable Access office to members. If this is incorrect, please turn this office to Unassigned.",
+        "zen_desk_label": "Need support? ",
+        "zen_desk_label_2": "If you can’t find the office you’re looking for or need other assistance — ",
+        "zen_desk_cta": "Submit a Digital Support ticket in Zendesk",
+        "view_types": {
+            "list": "List",
+            "floorplan": "Floorplan"
+        },
+        "view_types_switch_button": {
+            "list": "Show List",
+            "floorplan": "Show Floorplan"
+        },
+        "office_types": {
+            "reservable": "Reservable",
+            "unreservable": "Not Reservable"
+        },
+        "saved": "Saved",
+        "popup_error": {
+            "title": "Something went wrong",
+            "description": "Your changes have not been saved. Please try again"
+        },
+        "warning_desk_not_reservable": {
+            "title": "Are you sure you want to make this change?",
+            "cta_no": "No, Go Back",
+            "cta_yes": "Yes, Continue"
+        },
+        "warning_office_not_reservable": {
+            "title": "PLEASE CONFIRM BEFORE YOU PROCEED",
+            "subtitle": "All future reservations will be cancelled for {{officeName}}",
+            "review_part1": "Review ",
+            "review_part2": "All Office Reservations",
+            "review_part3": " before making this change.",
+            "question": "Are you sure you want to make this office Not Reservable?",
+            "cta_no": "No, Go Back",
+            "cta_yes": "Yes, Continue"
+        },
+        "edit_office": "Edit Details",
+        "office_form": {
+            "title": "edit office details",
+            "subtitle": "make sure to save your changes.",
+            "field_name_lbl": "office name",
+            "field_name_prefix": "office",
+            "field_seats_lbl": "maximum capacity (number of seats)",
+            "field_dailyprice_lbl": "price in {{currencyIsoCode}} (daily rate)",
+            "field_floor_lbl": "floor",
+            "floor_missing": "Don't see the floor you need?",
+            "add_floor": "Add a floor",
+            "field_amenities_lbl": "amenities",
+            "name_prefix": "Office",
+            "success_msg": "Office successfully updated!",
+            "fail_msg": "Office update failed."
+        }
+    },
+    "deskReservation": {
+        "upcoming_title": "Your Upcoming Reservations",
+        "no_reservations": "You have no upcoming reservations.",
+        "see_desks": "See {{count}} desk",
+        "see_desks_plural": "See {{count}} desks",
+        "fully_booked": "Sorry, we’re fully booked.",
+        "fully_booked_cta": "See {{date}} with {{count}} desk available",
+        "fully_booked_cta_plural": "See {{date}} with {{count}} desks available",
+        "fully_booked_all_time": "Sorry, we’re fully booked the next couple months. Please try another location.",
+        "view_reservations": "View all my reservations",
+        "reservation_load_error": "You do not have access to this reservation, or it no longer exists.",
+        "res_card": {
+            "floor_office_desk": "Floor {{floorName}}, {{officeName}}: Desk {{deskNumber}}",
+            "all_day": "All Day"
+        },
+        "title": "Reserve a Desk in your Office",
+        "drawer": {
+            "title": "Your Selection",
+            "review": "Review Reservation",
+            "review_edit": "Review Updates",
+            "selected": "Selected"
+        }
+    },
+    "allReservations": {
+        "search_placeholder": "Search by type, account, member name or date",
+        "no_results": "This location has no {{monthYear}} office reservations.",
+        "title": "All Office Reservations",
+        "columns": {
+            "date": "DATE",
+            "product": "PRODUCT",
+            "account": "ACCOUNT",
+            "member": "MEMBER",
+            "desk": "Office"
+        }
+    },
+    "myReservations": {
+        "column": {
+            "date": "DATE",
+            "owner": "OWNER",
+            "type": "TYPE",
+            "location": "LOCATION",
+            "price": "PRICE"
+        },
+        "tracking_hour": {
+            "allotted": "ALLOTTED",
+            "unlimited": "Unlimited",
+            "purchased": "PURCHASED",
+            "used": "USED",
+            "monthly_charge": "MONTHLY CHARGE",
+            "meeting_rooms": "Meeting Rooms",
+            "desks": "Desks",
+            "offices": "Offices",
+            "title": "Monthly Hours Tracking",
+            "pass_cost": "{{count}} day pass",
+            "pass_cost_plural": "{{count}} day passes",
+            "reservation_count": "{{count}} reservation",
+            "reservation_count_plural": "{{count}} reservations"
+        },
+        "account": "Account",
+        "viewing": "Viewing",
+        "empty_table": "You have no reservations this month. Try selecting another month for more results.",
+        "my_title": "My Reservations",
+        "company_title": "Company Reservations",
+        "room_cost": "{{count}} hour",
+        "room_cost_plural": "{{count}} hours",
+        "table": {
+            "day_pass": "1 day pass"
+        }
+    },
+    "reserveFlexDesk": {
+        "price_day": "${{price}}/day"
+    },
+    "onboarding": {
+        "next": "Next",
+        "skip_for_now": "Skip for now",
+        "finish": "Finish",
+        "intro": {
+            "title": {
+                "0": "Welcome, {{userFirstName}}",
+                "1": "Let’s start with the basics.",
+                "4": "Create your member profile.",
+                "8": "Create your company profile."
+            },
+            "message": {
+                "0": "The Industrious Member Portal gives you instant access to everything you need to manage your workday. Create your account and begin booking meeting rooms, managing your upcoming reservations, and more.",
+                "1": "Tell us a bit more about yourself to help us create a better workday experience for our community. Any and all information you provide us will always be kept confidential, private, and secure.",
+                "4": "Update your profile information to easily find and connect with other members in the Industrious community.",
+                "8": "Complete your company profile to allow members of the Industrious community to easily find and connect with your business."
+            },
+            "image_alt": {
+                "0": "Industrious laptop",
+                "1": "shaking hands",
+                "4": "pen and paper",
+                "8": "briefcase in hand'"
+            }
+        },
+        "form": {
+            "title": {
+                "demographics1": "What are your gender pronouns?",
+                "demographics2": "What is your age?",
+                "demographics3": "What best describes your level of experience?",
+                "member1": "How would you like your name displayed?",
+                "member2": "Add your short bio.",
+                "company1": "How would you like your company name displayed?",
+                "company2": "Select your industry.",
+                "company3": "How many employees work for your company globally?",
+                "company4": "Provide a short company description."
+            },
+            "textOption": {
+                "demographics1": {
+                    "placeholder": "Pronouns",
+                    "buttonLabel": "Prefer to self-describe"
+                },
+                "company2": {
+                    "placeholder": "Please enter your industry",
+                    "buttonLabel": "Other"
+                }
+            },
+            "value_keys": {
+                "member1": {
+                    "name": {
+                        "label": "DISPLAY NAME",
+                        "placeholder": "First Last"
+                    }
+                },
+                "company1": {
+                    "name": {
+                        "label": "company name",
+                        "placeholder": ""
+                    }
+                }
+            },
+            "text_image": {
+                "member2": {
+                    "image_input": "Upload your profile picture.",
+                    "helper": "Tell us a bit about yourself",
+                    "image_title": "Edit your profile photo"
+                },
+                "company4": {
+                    "image_input": "Upload your company logo.",
+                    "helper": "Tell us a bit about your business",
+                    "image_title": "Edit your company logo"
+                }
+            }
+        }
+    },
+    "contactProfile": {
+        "labels": {
+            "pronoun": "PRONOUNS",
+            "custom_pronoun": "CUSTOM PRONOUNS"
+        },
+        "placeholders": {
+            "pronoun": "Pronoun"
+        }
+    },
+    "accountActivity": {
+        "title": "All Activity",
+        "monthly_summary": "Monthly Summary",
+        "reservations": "Reservations",
+        "summary": {
+            "meeting_room_title": "MEETING ROOM HOURS",
+            "office_title": "OFFICE",
+            "desk_title": "DESK",
+            "ow_title": "OPEN WORKSPACES",
+            "used": "Used",
+            "used_passes": "Used day passes",
+            "reservations": "Reservations",
+            "charge": "additional charge",
+            "total_charge": "total charge",
+            "a_of_b": "{{a}} of {{b}}",
+            "total_charges": "Total charges"
+        },
+        "search": {
+            "placeholder": "Search by member or type"
+        },
+        "table": {
+            "columns": {
+                "date": "DATE",
+                "type": "RESERVATION TYPE",
+                "location": "LOCATION",
+                "member": "MEMBER",
+                "price": "PRICE"
+            },
+            "types": {
+                "desk": "Desk",
+                "office": "Office",
+                "conference": "Meeting Room",
+                "openWorkspace": "Open Workspace"
+            },
+            "empty": {
+                "title": "No activity yet.",
+                "description": "You’ll be able to see future employee activity here."
+            },
+            "data": {
+                "day_pass": "1 day pass"
+            }
+        }
+    },
+    "accountOverview": {
+        "balance": {
+            "title": "Account Balance Remaining",
+            "remaining_days": "{{count}} day remaining in the month",
+            "remaining_days_plural": "{{count}} days remaining in the month",
+            "meeting_balance": "MEETING ROOM HOURS",
+            "membership_includes": "Membership includes {{count}} day pass",
+            "membership_includes_plural": "Membership includes {{count}} day passes",
+            "tooltip": "Your team will start each month with this amount of day passes and meeting room hours. Credited day passes will show as additional passes in your balance.",
+            "membership_includes_end": "{{count}} meeting room hour",
+            "membership_includes_end_plural": "{{count}} meeting room hours",
+            "pass_purchase": "Additional day pass purchase is ",
+            "tooltip2": "When your balance reaches 0, having this setting on will allow your team to make reservations at an additional cost. When disabled, your team will not be able to make additional reservations."
+        },
+        "activity": {
+            "title": "Account Activity",
+            "cta": "View all months"
+        }
+    },
+    "error": {
+        "title": "Something went wrong",
+        "description": "You'll need to refresh your browser.",
+        "persist_title": "Sorry, something isn’t right",
+        "persist_description": "Please contact your Member Experience Manager"
+    },
+    "groupManagement": {
+        "hotDeskToggle": "Desks",
+        "confirmDeskToggleEnabled": "Enabling desks will cancel any existing office reservations. Save your changes?",
+        "confirmDeskToggleDisabled": "Disabling desks will cancel any existing desk reservations. Save your changes?",
+        "goBack": "Go Back",
+        "save": "Save",
+        "close": "Close",
+        "cancel_changes": "Are you sure you want to close without saving changes?",
+        "type": {
+            "label": "DISPLAY",
+            "standalone_title": "Show group separate from coworking",
+            "standalone_description": "Best used for standalone Canvas suites. This group’s private rooms, offices, and events will be shown separate from coworking. This group will be visible to accounts in the group as a separate location in the location list.",
+            "standalone_description2": "By enabling the Desk feature below, members within this group will be able to reserve a desk in their own dedicated office. (Best used with accounts who are paying for additional keycards, like with \"Office for Everyone\")",
+            "integrated_title": "Show group with coworking",
+            "integrated_description": "Best used for coworking companies with a private meeting room or office. This groups private rooms, offices, and events will be displayed alongside coworking rooms, offices, and events. They will only be visible to accounts in this group."
+        },
+        "columns": {
+            "name": "GROUP NAME",
+            "accounts": "INCLUDED ACCOUNTS",
+            "display": "DISPLAY"
+        },
+        "table": {
+            "actions": {
+                "view": "View all ({{count}})",
+                "edit": "View or edit group",
+                "delete": "Delete"
+            },
+            "show_separate": "Show separate from coworking",
+            "show_with": "Show with coworking",
+            "all_coworking": "All Coworking",
+            "no_accounts": "No Accounts"
+        },
+        "deleteConfirmation": {
+            "cannotBeDeleted": {
+                "title": "This group cannot be deleted",
+                "description": "There are either active reservations, events or resources (offices, desks or meeting rooms) that are assigned to this group. Please unassign the resources and cancel the reservations before deleting this group.",
+                "ok": "Okay"
+            },
+            "canBeDeleted": {
+                "title": "Are you sure you want to delete this group?",
+                "yes_delete": "Yes, Delete",
+                "go_back": "Go Back"
+            }
+        }
+    },
+    "banner": {
+        "label": "Now available! Offices by the day, just for your team.",
+        "cta": "Reserve now"
+    },
+    "billingPortalLink": {
+        "name": "Billing"
+    },
+    "memberManagement": {
+        "title": "Member Management"
+    },
+    "popup": {
+        "licensed_access_office": "A licensed office ({{ officeName }}) at {{ locationName }} is currently marked as a reservable Access office.",
+        "licensed_access_office_plural": "Multiple licensed offices at {{ locationName }} are currently marked as reservable Access offices.",
+        "licensed_access_office_conflict_location": " From the Reservable Office page, select {{ locationName }} and then go to Manage Workspaces to see the office.",
+        "licensed_access_office_conflict_location_plural": " From the Reservable Offices page, select {{ locationName }} and then go to Manage Workspaces to see the offices.",
+        "licensed_access_office_cta": "Review office status",
+        "licensed_access_office_conflict_location_cta": "Go to reservable offices"
+    },
+    "openWorkspace": {
+        "title": "Reserve an Open Workspace",
+        "description": "Visit any Industrious location and get all day access to the shared spaces during business hours.",
+        "want_more": "Want more privacy? ",
+        "want_more_prefix": " Reserve a ",
+        "want_more_cta": "private office",
+        "want_more_suffix": " instead.",
+        "cta": "Reserve an Open Workspace",
+        "explore_all": "Explore all Industrious locations",
+        "view_reservations": "View all my reservations",
+        "location": {
+            "label": "Location*",
+            "placeholder": "Search by location name, city, or address",
+            "error_self": "This is your home location. You do not need a reservation here.",
+            "error": "This is the attendee’s home location. They do not need a reservation here.",
+            "fully_booked": "Sorry, we’re fully booked on the selected date. Try another location or date."
+        },
+        "date": {
+            "label": "Date*"
+        },
+        "user": {
+            "label": "Seat is for*",
+            "placeholder": "Search by name"
+        },
+        "confirmation": {
+            "title": "Open Workspace Reservation Confirmed",
+            "see_you": "See you at",
+            "see_on": "on {{date}}",
+            "meeting_label": "Need a meeting room?",
+            "meeting_cta": "Reserve a meeting room",
+            "requests_label": "Bringing guests or have special requests?",
+            "requests_cta": "Email the team at {{locationName}}",
+            "requests_desc": "Please let your community manager know before your scheduled reservation so that our teams can be prepared for your visit.",
+            "email_description": "Check your inbox for a confirmation email with details on getting there, checking in, and more."
+        },
+        "reservation_load_error": "You do not have access to this reservation, or it no longer exists."
+    },
+    "reservationSeatSummary": {
+        "title": "Reservation Summary",
+        "date": "Date*",
+        "seatFor": "Seat is for:*",
+        "openWorkspace": "Open Workspace",
+        "disclaimer": "Reservations can be cancelled up to 15 hours before the start of the reservation.",
+        "cancel_cta": "Cancel Reservation",
+        "update_cta": "Update Reservation",
+        "cancel_confirmation": "Are you sure you want to cancel this reservation?",
+        "cancel_snack": "Your reservation has been cancelled.",
+        "limit_error": "Sorry, we’re fully booked on the selected date. Please try another date.",
+        "updatePopup": {
+            "title": "Are you sure you want to make this change?",
+            "description": "This reservation is less than 24 hours away. Please contact the attendee for this reservation to communicate any changes that are being made."
+        }
+    },
+    "visitingMemberReservation": {
+        "title": "Daily Reservations",
+        "description": "See who’s coming in for the day! Manage reservations made by Office and Meeting Room visitors, as well as all Open Workspace bookings.",
+        "limit_description_1": "To request a daily limit update for Meeting Room and Open Workspace reservations, please ",
+        "limit_description_cta": "submit a Digital Support ticket in Zendesk",
+        "limit_description_2": ". The limit will be applied to future reservations only; all existing reservations will be kept unless manually cancelled or modified.",
+        "link": " submit a Zendesk ticket",
+        "daily_limit_description": " with the group and location names to request an update to the daily limit.",
+        "tooltip_message": "To help manage common space capacity, the daily limit count includes visitors with Meeting Room and/or Open Workspace reservations only. Office reservations ",
+        "bold_message": "do not ",
+        "tooltip_message2": "count toward the daily limit because those visitors have a dedicated workspace for the day.",
+        "popup": {
+            "title": "Daily limit exceeded",
+            "description": "There are more reservations than the allowed limit on the selected date. Please review and manage all visiting member reservations as necessary."
+        },
+        "table": {
+            "placeholder": "Search by member or account name",
+            "empty_title": "There are no reservations for this date",
+            "empty_description": "Change the date or location to see other reservations.",
+            "empty_search_title": "No results for your search",
+            "empty_search_description": "Try changing your search or filters.",
+            "first_time_callout": "First-time guest",
+            "all_day": "All day pass",
+            "office_desk": "{{officeName}}, Desk {{deskNumber}} • Floor {{floorName}}",
+            "office_floor": "{{officeName}} • Floor {{floorName}}",
+            "openWorkspace": "Open Workspace",
+            "daily_limit": "Daily limit: {{count}} visiting attendees for Meeting Rooms and/or Open Workspaces ",
+            "unlimited_limit": "Daily limit: Unlimited ",
+            "columns": {
+                "attendee": "Attendee",
+                "reservation": "reservation",
+                "home_location": "home location",
+                "visits": "Visits",
+                "visits_subtitle": "(Month-to-date)",
+                "actions": "Actions"
+            },
+            "filters": {
+                "office": "Office",
+                "desk": "Desk",
+                "booking": "Meeting Room",
+                "seat_booking": "Open Workspace"
+            },
+            "totals": {
+                "visiting_members": "{{count}} attendee ",
+                "daily_limit_error": " Daily limit exceeded",
+                "visiting_members_plural": "{{count}} attendees ",
+                "desks": "{{count}} desk reservation • ",
+                "desks_plural": "{{count}} desk reservations • ",
+                "meeting_room": "{{count}} meeting room reservation",
+                "meeting_room_plural": "{{count}} meeting room reservations",
+                "openWorkspace": "{{count}} open workspace reservation • ",
+                "openWorkspace_plural": "{{count}} open workspace reservations • ",
+                "office": "{{count}} office reservation • ",
+                "office_plural": "{{count}} office reservations • "
+            }
+        }
+    },
+    "Schedule": {
+        "floor_office_desk": "Floor {{floorName}}, {{officeName}}: Desk {{deskNumber}}",
+        "floor_office": "{{officeName}} • Floor {{floorName}}",
+        "open_workspace_title": "Open Workspace",
+        "title": "Your Schedule",
+        "empty_title": "You have nothing coming up on your schedule.",
+        "empty_description": "Check out an event or make a workspace reservation.",
+        "today": "Today",
+        "access_title": "Access",
+        "zoom_call": "Zoom Call"
+    },
+    "Upcoming": {
+        "all_day": "All Day",
+        "open_workspace_title": "Open Workspace",
+        "floor_office_desk": "Floor {{floorName}}, {{officeName}}: Desk {{deskNumber}}",
+        "floor_office": "Floor {{floorName}}, {{officeName}}",
+        "title": "Your Upcoming Reservations",
+        "no_reservations": "You have no upcoming reservations."
+    },
+    "FormErrors": {
+        "required": "This field is required",
+        "alphanumeric": "This field must be alphanumeric",
+        "number": "This field must be a number",
+        "min": "The minimum value authorised is {{value}}"
+    },
+    "YourDoorAccessPinSection": {
+        "title": "Your Door Access PIN",
+        "uniquePinCodeLabel": "Unique PIN code for {{name}}",
+        "disclaimer": "Please do not share this code with anyone.",
+        "disclaimerResetPin": "To reset your PIN, contact your Member Experience Manager.",
+        "resetPinButton": "Reset PIN",
+        "resetErrorMessage": "Your PIN could not be reset. Please contact your Member Experience Manager for support.",
+        "confirmPopup": {
+            "title": "Are you sure you want to reset your door access PIN?",
+            "description": "Your current PIN will no longer be valid.",
+            "yes": "Yes, Reset My PIN",
+            "no": "No, Go Back"
+        },
+        "successPopup": {
+            "title": "Your PIN has been reset",
+            "description": "An email confirmation has been sent to your inbox.",
+            "ok": "Done"
+        }
+    },
+    "PinCodeSection": {
+        "errorMessage": "Your PIN could not be loaded. Please contact your Member Experience Manager for support."
+    },
+    "adminButton": {
+        "actionLabel": "Go to Admin Portal",
+        "listTitle": "Admin Portal",
+        "navigationMenu": {
+            "dailyreservations": "Daily Reservations",
+            "memberaccountactivity": "Member Account Activity",
+            "viewofficereservations": "View Office Reservations",
+            "manageDesks": "Manage Desks",
+            "manageOffices": "Manage Offices",
+            "managemeetingRooms": "Manage Meeting Rooms",
+            "managemenu&Events": "Manage Menu & Events",
+            "messagemembers": "Message Members",
+            "groupmanagement": "Group Management",
+            "checkinactivity": "Check-in Activity",
+            "packagealerts": "Package Alerts"
+        }
+    },
+    "amenities": {
+        "exterior-window": {
+            "name": "Exterior Window",
+            "iconName": "sun"
+        },
+        "monitors": {
+            "name": "Monitors",
+            "iconName": "monitor"
+        },
+        "whiteboard": {
+            "name": "Whiteboard",
+            "iconName": "whiteboard"
+        },
+        "speakerphone": {
+            "name": "Speakerphone",
+            "iconName": "phone"
+        },
+        "video-conferencing": {
+            "name": "Video Conferencing",
+            "iconName": "camera"
+        }
+    },
+    "manageDesks": {
+        "title": "Manage Desks"
+    },
+    "Calendar": {
+        "outsideHours": "Oops! Looks like you're trying to book outside of standard business hours. Please select a time Mon-Fri, 8am - 5pm for your reservation, or contact your Member Experience Manager for assistance. During summer months, we invite you to book and arrive up until 2 pm on Fridays. Beyond that, our staff will be unavailable to grant access during Summer Fridays."
+    },
+    "ConferenceBookingSummary": {
+        "outsideHours": "Oops! Looks like you're trying to book outside of standard business hours. Please select a time Mon-Fri, 8am - 5pm for your reservation, or contact your Member Experience Manager for assistance. During summer months, we invite you to book and arrive up until 2 pm on Fridays. Beyond that, our staff will be unavailable to grant access during Summer Fridays."
+    },
+    "Faq": {
+        "title": "Frequently Asked Questions",
+        "section1": {
+            "title": "Member + Community Guidelines",
+            "answer": "Please refer to the Member Handbook (",
+            "answer2": ") for a full overview of how to use our spaces. For quick reference, below are some of the most frequently asked questions."
+        },
+        "section2": {
+            "title": "Accessing the office",
+            "body": "You’ll be able to enter your Industrious home location 24/7 with either a member keycard (a hard keycard given to you during your onboarding) or a Salto PIN (a unique pin code just for you, that you’ll use to get in our front doors).",
+            "body2": "At most locations, our main doors remain unlocked during business hours, however, you may need your keycard or Salto PIN for access at the building level. Some locations do have certain floors or areas with doors that remain locked for security purposes, so we do recommend keeping your keycard with you at all times.",
+            "question": "Will I be able to get into other Industrious locations 24/7?",
+            "answer": "No, as of now your keycard or PIN is specific to your home location. When visiting another office, please ensure that you have booked an Open Workspace, Office, Meeting Room, or Desk via the Member Portal and are arriving within standard business hours (8am - 5pm local time)"
+        },
+        "section3": {
+            "title": "IT",
+            "question1": {
+                "question": "What type of internet is provided by Industrious?",
+                "answer": "Memberships include standard fiber internet, which is a shared 300 Mbps for uploads and downloads. Dedicated bandwidth is available at an additional cost."
+            },
+            "question2": {
+                "question": "What if I need a Public IP?",
+                "answer": "We can offer static public IP addresses at an additional monthly cost - once provisioned, these can be configured for use on member equipment such as firewalls."
+            },
+            "question3": {
+                "question": "Why does my wifi seem slow?",
+                "answer": "Please ensure that you are connected to the Wifi Secure network with your personal credentials. If you need your password to be reset, kindly contact your Community Team. If you are already on Wifi Secure and still experiencing issues, please run a ",
+                "answer2": " and email a screenshot of the results to your Community Team, who can help troubleshoot with our provider."
+            },
+            "question4": {
+                "question": "What wifi is available for my guests/visitors?",
+                "answer": "We offer a complimentary Guest Wifi network for anyone visiting the space. To connect, the visitor will simply need to fill out the splash page with their name and email address. Please note that the Guest Wifi network will time out after 4 hours; your guest can simply sign back on at that point!"
+            },
+            "learnMoreText": "For any other questions, please connect directly with your local Community Team."
+        },
+        "section4": {
+            "title": "Amenities",
+            "question1": {
+                "question": "Is any food and beverage included with my membership?:",
+                "answer": "Yes, your membership includes daily breakfast, snacks, and a weekly happy hour. Our cafes additionally feature bottomless coffee and tea, as well as unlimited soft drinks."
+            },
+            "question2": {
+                "question": "What if I have dietary restrictions/allergies?:",
+                "answer": "Please let your Community Team know about any restrictions or allergies and they will do their best to accommodate you when possible."
+            },
+            "question3": {
+                "question": "Is there a community fridge where I can keep personal items?:",
+                "answer": "Yes! Your Community Team can direct you to the fridge and show you how to label your items. Each team does a weekly fridge clean out on a specific date, so please ensure that you are removing your items on a regular basis."
+            },
+            "question4": {
+                "question": "I’m a nursing mother; is there a place where I can pump and/or store expressed milk?:",
+                "answer": "Absolutely. Each location has a Wellness Room, which is a private space that can be reserved when you need to pump. The room features comfortable seating as well as a small refrigerator (some additionally have sinks). When you need to use the room, please reserve via the Member Portal - it will not utilize your conference room hours, however, this ensures that all members who need the space can find a time. Please be certain to label your milk and remove it from the fridge at the end of the day."
+            },
+            "question5": {
+                "question": "What is a Wellness Room?:",
+                "answer": "The Wellness Room is a restful space designed for members or guests requiring medical privacy such as nursing mothers, but it is available to all members who require privacy for medical purposes, prayer, or other reasons. Please see your Community Team for more details."
+            },
+            "question6": {
+                "question": "What is a Focus Room?:",
+                "answer": "Focus Rooms are small, comfortable spaces that provide privacy for members when they need it. Rooms are available on a first come, first serve basis, but we do ask that you keep your time to no more than one hour out of consideration for the community. Please see your Community Team if you aren’t sure where the Focus Rooms are located."
+            },
+            "question7": {
+                "question": "What is a Phone Room/Booth?:",
+                "answer": "Phone Rooms/Booths are first come, first serve spaces that offer members a private area to take a call. Kindly limit your time in the room to one hour or less per visit in order to ensure that all members have an opportunity to utilize the space."
+            }
+        },
+        "section5": {
+            "title": "Billing and Invoices",
+            "question1": {
+                "question": "When is my office invoice due?:",
+                "answer": " Office invoices are sent out on the 10th day of the preceding month. All invoices for recurring charges (i.e. office fees, monthly parking, etc) are due on the 1st day of each month."
+            },
+            "question2": {
+                "question": "Are there late fees?:",
+                "answer": "Yes, a 10% late fee will apply to any balance more than 5 days past due."
+            },
+            "question3": {
+                "question": "How can I view my invoices?:",
+                "answer": "Please log in to our ",
+                "answer2": ". If you do not have a portal log-in, please contact your local Community Team."
+            },
+            "question4": {
+                "question": "What payment methods do you accept?",
+                "answer": "For your convenience, our billing portal supports ACH and credit card payments, and your primary payment method will be set to autopay when onboarding. We also accept wire transfers and checks, but please note there is a $45 monthly manual payment processing fee for those who opt out of autopay.",
+                "answer2": "Please send checks to the lockbox address listed on your invoice, and include your account number and a copy of the invoice. ",
+                "answer3": "Checks submitted to the office location may be subject to significant processing delays and be eligible for late fees.",
+                "answer4": "If processing ACH or wire transfer, please contact your local Community Team to receive the correct W9 and/or Bank Letter. Each location operates as an individual entity, so if your company has multiple locations, you will need to request the W9 and Bank Letter for each office."
+            },
+            "question5": {
+                "question": "I need to update the invoice (name, address, PO number, etc):",
+                "answer": "Please contact your local Community Team and they will be more than happy to assist with any changes to the account."
+            },
+            "learnMoreText": "More questions? Please refer to our "
+        },
+        "section6": {
+            "title": "Industrious Network",
+            "question1": {
+                "question": "Can I visit another Industrious location?:",
+                "answer": "Absolutely! All Access and office members are able to work out of other locations. To visit another location, please log into the Member Portal and book an Open Workspace, Office, Meeting Room, or Desk at the location of your choice. This ensures that the local Community Team is ready to welcome you! Please note that you must arrive during business hours (8am - 5pm local time) and we cannot provide visitor access during any of the days/times listed on our "
+            },
+            "question2": {
+                "question": "Do you have international offices?:",
+                "answer": "Yes, we do. Please refer to ",
+                "answer2": " to find a full list of locations. If you would like to visit an international office, please email your Community Team so that they can assist with the details."
+            },
+            "question3": {
+                "question": "Can I use meeting rooms at another Industrious location?",
+                "answer": "Yes, you may utilize your meeting room hours to book rooms at any Industrious location via our member portal."
+            },
+            "question4": {
+                "question": "How do I find an Industrious in a city that I’m visiting?",
+                "answer": " has a full list of our locations."
+            }
+        },
+        "section7": {
+            "title": "Office",
+            "question1": {
+                "question": "What furniture is included with my office?:",
+                "answer": "We provide a set number of custom desks, chairs, and trash bins for each office. With advance notice, furniture can be removed as well. Please connect with your local Community Team to discuss options and necessary lead times."
+            },
+            "question2": {
+                "question": "What if my office is too cold/hot?:",
+                "answer": "Office temperatures are typically moderated by zones and kept within a building-specific range that is comfortable for multiple members. Your Community Team can provide additional information about your location."
+            },
+            "question3": {
+                "question": "Can I decorate my office?:",
+                "answer": "Absolutely! We encourage members to make the space comfortable and often see teams add area rugs, plants, and other decor. In order to avoid obstructing natural light or line of sight, please avoid affixing anything to the glass walls or windows. If you have any large pieces of furniture that you would like to place in front of the glass, please speak to your Community Team so that they can evaluate the potential impact to other members in the space. Any damage to the office will be deducted from your Security Deposit return when you move out of the space. If you have further questions about office decorations or furnishings, please contact your Community Team directly."
+            },
+            "question4": {
+                "question": "Can I put up privacy film?:",
+                "answer": "Privacy film is evaluated on a case-by-case basis. Please speak directly to your Community Team to learn more."
+            },
+            "question5": {
+                "question": "Can I put my logo onto the office door?:",
+                "answer": "We are happy to arrange for installation. Please speak to your Community Team in order to discuss sizing and next steps."
+            },
+            "question6": {
+                "question": "How often is my office cleaned?:",
+                "answer": "Industrious manages cleaning for all common areas on a regular basis and limited services within member offices. Trash cans are emptied on a nightly basis. For any urgent janitorial needs (large spill, broken glass, etc), please notify your Community Team."
+            }
+        },
+        "section8": {
+            "title": "What are my options to reserve a workspace?",
+            "question1": {
+                "question": "Meeting Rooms",
+                "answer": "can be reserved using hours. At your home location, reservations can be made for any time of the day. If you are visiting another Industrious location, you may reserve a meeting room during business hours, between 8:30am and 5:00pm, Monday to Friday."
+            },
+            "question2": {
+                "question": "Open Workspace",
+                "answer": "reservations are unlimited for our Access and office members. An open workspace is a place to sit in the common spaces at any Industrious location, and reservations last all day during business hours.",
+                "accessmembers": "Access members",
+                "accessMembersDescription": " are required to make an open workspace reservation when working at their home location, or other locations in the network (if their membership includes the global network).",
+                "dedicatedOfficeMember": "Dedicated office member",
+                "dedicatedOfficeMemberDescription": " only need to make an open workspace reservation if they are visiting other locations outside of their home location, and are not required to reserve at their home location.",
+                "virtualMemberships": "Virtual memberships",
+                "virtualMembershipsDescription": " do not include access to reserve open workspaces."
+            },
+            "question3": {
+                "question": "Offices",
+                "answer": "can be reserved on a daily basis and are priced based on location, size, and amenities. On average, pricing across our network is around $50/seat/day for these reservable offices."
+            },
+            "question4": {
+                "question": "Desks",
+                "answer": "can be reserved by companies who have configured hotdesking - please speak with your Member Experience Manager to enable this functionality."
+            }
+        },
+        "section9": {
+            "title": "How can I invite guests to Industrious locations?",
+            "body": "If you are planning to have guests at any Industrious location, please notify the local Member Experience Manager at least a day in advance, sharing a list of your guests and their date of arrival. You can find the local Manager’s contact information in your reservation confirmation emails. Click here to view details about our Guest Policy in the "
+        },
+        "section10": {
+            "title": "How far in advance can I reserve?",
+            "body": "Meeting Rooms, Open Workspaces and Offices can be reserved up to 90 days in advance."
+        },
+        "section11": {
+            "title": "What is the cancellation period for my reservations?",
+            "question1": {
+                "question": "Meeting room",
+                "answer": "reservations can be modified or canceled up to 30 minutes prior to the start time of the reservation. Any cancellations made after that time will result in a hours deduction from your balance, or if you’ve used your available meeting room hours for the month, you’ll see a corresponding overage fee."
+            },
+            "question2": {
+                "question": "Open workspace",
+                "answer": "reservations can be canceled up to 15 hours before the start of the reservation."
+            },
+            "question3": {
+                "question": "Office",
+                "answer": "reservations must be canceled before 5pm on the day before the reservation to avoid a charge. Any cancellations made past 5pm will result in a day pass being deducted from your balance."
+            }
+        },
+        "section12": {
+            "title": "How can I make additional reservations that exceed my regular monthly allotment of day passes and/or meeting room hours?",
+            "body": "You can proceed to make the reservation and the portal will alert you if your reservation will incur an overage. You can view your monthly balance any time by clicking on the \"View all my reservations\" link under the Upcoming Reservations drawer on the portal. You will be billed for your overages at the end of the month."
+        },
+        "section13": {
+            "title": "If I have incurred day pass or meeting room hour overages, where can I see this balance?",
+            "body": "In the Upcoming Reservations side pop-out menu on any reservation page, click the “View all my reservations” link to view your monthly allotted and used balance."
+        },
+        "section14": {
+            "title": "Where can I view my remaining monthly balance for day passes and meeting room hours?",
+            "body": "Your monthly day pass and meeting room hours balance will be displayed on each respective reservation creation page."
+        },
+        "section15": {
+            "title": "Do purchased meeting room hours roll over? How do they work with the regular allotment of hours I receive every month?",
+            "body": "When you reserve a meeting room, hours are first deducted from the regular hours you receive every month until they are exhausted. You will be billed for overages at the end of each month for all conference room time reserved beyond your allotted hours."
+        },
+        "section16": {
+            "title": "Where can I edit my notification preferences?",
+            "body": "You can set your email and SMS notification preferences on the ",
+            "body2": " page, which can be found under the Account menu by clicking on your name in the top right corner of the Member Portal."
+        },
+        "section17": {
+            "title": "What is the new Reserve an Office feature?",
+            "body": "This is a feature improvement that allows you to book an office for yourself or your team for the day.",
+            "answer": "You’ll be able to:",
+            "answer2": "Select an office for the day that fits your needs: the right size, natural light, and amenities you need.",
+            "answer3": "See where your teammates are booking, so you can sit alongside them."
+        },
+        "section18": {
+            "title": "What are all the different types of workspace that I, as a member, can reserve in the portal?",
+            "body": "Members can reserve the following types of workspaces within the member portal:",
+            "answer1": "A meeting room, in 30 min increments up to a full day.",
+            "answer2": "A private office for themselves or their team, by the day.",
+            "answer3": "An open workspace seat in our community cafes and lounges, by the day",
+            "answer4": " (If enabled for your company) A desk within your company’s dedicated office, by the day.",
+            "learnMore": "Learn more on this feature",
+            "learnMore2": ", and contact your Member Experience Manager to find out how you can utilize this feature with your team."
+        },
+        "section19": {
+            "title": "Who can reserve an Office?",
+            "body": "Offices can be reserved by any Access, dedicated office, or dedicated suite member. This feature is not available to our Virtual members – if you’d like to upgrade to be able to book workspace by the day, please discuss with your Member Experience Manager."
+        },
+        "section20": {
+            "title": "Do members pay to reserve an Office?",
+            "body": "Yes, our offices available by the day have rates that vary with Industrious location and office factors (size, window, etc). On average, across our network, these offices tend to be about $50/seat/day. You can select the office that works best for you price-wise via the member portal. ",
+            "body2": "If you have day passes associated with your account, you’ll use those first (1 day pass per office, regardless of size). Once your day passes have all been used for the month, you’ll see the dollar price associated with offices."
+        },
+        "section21": {
+            "title": "How can I see where my teammate has reserved an Office?",
+            "body": "When making an Office reservation, you’ll see a small tag next to the already reserved office(s) that says “Teammate”, along with that teammate’s first name and last initial. Assuming there’s room, you’re welcome to just hop over and sit in that office with your teammate!"
+        },
+        "section22": {
+            "title": "Can a non-member book an office for the day?",
+            "body": "No, this booking feature is available to members only."
+        },
+        "section23": {
+            "title": "Can I have guests work out of my reserved office?",
+            "body": "Yes. Just like when you’re reserving a meeting room, you can invite guests to work out of your office. Once you’ve reserved an office, you’ll see a button that allows you to “Register Attendees.” This will open a pre-populated email for you to share your guests’ names, and send the message to our local staff at that location. Please make sure to do this step, so we can ensure your guests get smoothly through building security."
+        },
+        "section24": {
+            "title": "What is the new hotdesking feature?",
+            "body": "For our dedicated office members, you’ll now have the ability for your employees to book desks within your office via the Industrious member portal. This can be helpful if:",
+            "answer1": "You have employees in a hotdesking situation, where folks are rotating through usage of your office.",
+            "answer2": "You’d just like more visibility into how your employees are using the office",
+            "answer3": "This feature will need to be enabled for your team by your Member Experience Manager. Please discuss with them, and once enabled, your employees will see the option to “Reserve a Desk within your Office” in the portal."
+        },
+        "section25": {
+            "title": "Do my employees pay to reserve a Desk within our office?",
+            "body": "No, your employees will not pay when reserving desks within your dedicated office. Keep in mind that employees regularly using the office should have a membership through Industrious. Your Member Experience Manager can work with you to issue additional memberships, and discuss any associated cost."
+        },
+        "section26": {
+            "title": "How do my employees reserve a Desk?"
+        },
+        "section27": {
+            "title": "What if my office is maxed out for the day?",
+            "body": "Not a problem! You can book an additional office by the day in our member portal (see “Reserve a Private Office” feature) for the number of people you need. Alternatively, you can book a meeting room, if you’d prefer to have an AV-enabled room."
+        },
+        "section28": {
+            "title": "How can a member invite a nonmember to reserve a Desk?",
+            "body": "If you have a guest joining you who’s not a member (e.g. they’re visiting from another city, or are a client looking to work alongside you for the day), we recommend having one of your employees book two desks in their own name. The guest can sit at one of those desks."
+        }
+    },
+    "SubmitEmail": {
+        "success": "If the details you entered match our records, you should receive an email from us shortly."
+    },
+    "meetingSummary": {
+        "onDemandCancellation": "This is an on-demand reservation. Canceling will trigger a 100% refund. Are you sure you want to cancel this reservation?",
+        "cancellation": "Are you sure you want to cancel this reservation?"
+    }
+}

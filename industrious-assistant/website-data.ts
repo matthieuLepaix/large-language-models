@@ -6,7 +6,6 @@ import {
   RunnableWithMessageHistory,
 } from "@langchain/core/runnables";
 import { Ollama } from "@langchain/community/llms/ollama";
-import { formatDocumentsAsString } from "langchain/util/document";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { TensorFlowEmbeddings } from "@langchain/community/embeddings/tensorflow";
@@ -15,11 +14,13 @@ import { StringOutputParser } from "@langchain/core/output_parsers";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { ChatMessageHistory } from "langchain/stores/message/in_memory";
 import { MessagesPlaceholder } from "@langchain/core/prompts";
+import { convertToOpenAIFunction } from "@langchain/core/utils/function_calling";
 
 import { loadUrl, convertDocsToString } from "../utils";
 
 const URLS = [
   "https://www.industriousoffice.com",
+  "https://www.industriousoffice.com/faq",
   "https://www.industriousoffice.com/about-us",
   "https://www.industriousoffice.com/enterprise",
   "https://www.industriousoffice.com/brokers",
@@ -139,15 +140,16 @@ async function run() {
       process.exit(1);
     }
 
-    const result = await chainWithHistory.invoke(
+    for await (const chunk of await chainWithHistory.stream(
       { question: query },
       {
         configurable: {
           sessionId,
         },
       },
-    );
-    console.log(result);
+    )) {
+      process.stdout.write(chunk);
+    }
   }
 }
 
