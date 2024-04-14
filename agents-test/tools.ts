@@ -85,7 +85,7 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
     );
 
     const result = await fetch(
-      "https://api-gateway-dev0.industriousofficedev.com/inventory/v1.1.0/discovery/meeting-rooms/search",
+      `${process.env.INDUSTRIOUS_API_URL}/inventory/v1.1.0/discovery/meeting-rooms/search`,
       {
         method: "POST",
         headers: {
@@ -126,7 +126,11 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
     return `The best meeting rooms available for you in ${city} for ${numberOfPeople} people are: ${jsonResult
       .map(
         (mr) =>
-          `${mr.name}: https://www-dev0.industriousofficedev.com/meeting-rooms/${mr.slug}`
+          `${mr.name}: ${process.env.INDUSTRIOUS_WEBSITE_URL}/meeting-rooms/${
+            mr.slug
+          }/reserve/summary?startDate=${encodeURIComponent(
+            localStartDateTime
+          )}&endDate=${encodeURIComponent(localEndDateTime)}`
       )
       .slice(0, 3)
       .join(", ")}`;
