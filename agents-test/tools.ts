@@ -79,9 +79,7 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
     }
 
     const capacityFilter = CAPACITY_FILTERS.find(
-      (capacity) =>
-        capacity[0] <= numberOfPeople &&
-        (!capacity[1] || capacity[1] >= numberOfPeople)
+      (capacity) => capacity[1] == null || capacity[1] >= numberOfPeople
     );
 
     const result = await fetch(
@@ -117,13 +115,17 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
     const jsonResult = (await result.json()) as Array<{
       slug: string;
       name: string;
+      seats: number;
     }>;
 
-    if (jsonResult.length === 0) {
+    const matchingRooms = jsonResult.filter((mr) => mr.seats >= numberOfPeople);
+
+    if (matchingRooms.length === 0) {
       return `No meeting rooms available in ${city} for ${numberOfPeople} people.`;
     }
 
-    return `The best meeting rooms available for you in ${city} for ${numberOfPeople} people are: ${jsonResult
+    return `The best meeting rooms available for you in ${city} for ${numberOfPeople} people are: ${matchingRooms
+      .sort((a, b) => a.seats - b.seats)
       .map(
         (mr) =>
           `${mr.name}: ${process.env.INDUSTRIOUS_WEBSITE_URL}/meeting-rooms/${
