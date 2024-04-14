@@ -1,6 +1,8 @@
 import { z } from "zod";
 import { DynamicStructuredTool } from "langchain/tools";
 
+import { getGeoBoundsFromCityName } from "./geo";
+
 const addTool = new DynamicStructuredTool({
   name: "add",
   description: "Add two integers together.",
@@ -37,27 +39,16 @@ const exponentiateTool = new DynamicStructuredTool({
   },
 });
 
-const NEW_YORK_GEO_SEARCH = {
-  northEastPoint: {
-    longitude: -71.3416988598131,
-    latitude: 45.10740785825482,
-  },
-  southWestPoint: {
-    longitude: -80.22661564018898,
-    latitude: 40.3557236305478,
-  },
-};
-
 const CAPACITY_FILTERS = [[1, 4], [5, 9], [10, 19], [20]];
 
 const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
   name: "meeting_rooms_availability",
   description: "Check the availability of meeting rooms.",
   schema: z.object({
-    localStartDateTime: z.string(),
-    localEndDateTime: z.string(),
-    numberOfPeople: z.number(),
-    city: z.string(),
+    localStartDateTime: z.string().optional(),
+    localEndDateTime: z.string().optional(),
+    numberOfPeople: z.number().optional(),
+    city: z.string().optional(),
   }),
   func: async ({
     localStartDateTime,
@@ -65,8 +56,26 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
     city,
     numberOfPeople,
   }) => {
-    if (city !== "New York") {
-      return "No meeting available in this city.";
+    if (city == null) {
+      return "Please provide a city.";
+    }
+
+    if (localStartDateTime == null) {
+      return "Please provide a start date and time.";
+    }
+
+    if (localEndDateTime == null) {
+      return "Please provide an end date and time.";
+    }
+
+    if (numberOfPeople == null) {
+      return "Please provide the number of people.";
+    }
+
+    const startDate = new Date(localStartDateTime);
+    const endDate = new Date(localEndDateTime);
+    if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
+      return "Please provide a valid date and time.";
     }
 
     const capacityFilter = CAPACITY_FILTERS.find(
@@ -93,16 +102,7 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
             localStartDate: localStartDateTime,
             localEndDate: localEndDateTime,
           },
-          within: {
-            northEastPoint: {
-              longitude: -71.3416988598131,
-              latitude: 45.10740785825482,
-            },
-            southWestPoint: {
-              longitude: -80.22661564018898,
-              latitude: 40.3557236305478,
-            },
-          },
+          within: getGeoBoundsFromCityName(city),
         }),
       }
     );
@@ -120,14 +120,15 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
     }>;
 
     if (jsonResult.length === 0) {
-      return `No meeting rooms available in New York for ${numberOfPeople} people.`;
+      return `No meeting rooms available in ${city} for ${numberOfPeople} people.`;
     }
 
-    return `The meeting rooms available in New York for ${numberOfPeople} people are: ${jsonResult
+    return `The best meeting rooms available for you in ${city} for ${numberOfPeople} people are: ${jsonResult
       .map(
         (mr) =>
           `${mr.name}: https://www-dev0.industriousofficedev.com/meeting-rooms/${mr.slug}`
       )
+      .slice(0, 3)
       .join(", ")}`;
   },
 });

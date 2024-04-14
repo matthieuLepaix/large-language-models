@@ -19,7 +19,7 @@
     "cheerio": "^1.0.0-rc.12",
     "cheminfo-types": "^1.7.2",
     "dotenv": "^16.4.5",
-    "langchain": "^0.1.21",
+    "langchain": "^0.1.33",
     "pdf-parse": "^1.1.1",
     "readline-sync": "^1.4.10",
     "typescript": "^5.4.5",
