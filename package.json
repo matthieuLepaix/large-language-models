@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "industrious": "tsc && node build/industrious-assistant/index.js",
-    "translator": "tsc && node build/translator-assistant/index.js"
+    "translator": "tsc && node build/translator-assistant/index.js",
+    "agents-test": "tsc && node build/agents-test/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,10 +18,12 @@
     "@tensorflow/tfjs-node": "^4.10.0",
     "cheerio": "^1.0.0-rc.12",
     "cheminfo-types": "^1.7.2",
+    "dotenv": "^16.4.5",
     "langchain": "^0.1.21",
     "pdf-parse": "^1.1.1",
     "readline-sync": "^1.4.10",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.5",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/readline-sync": "^1.4.8"

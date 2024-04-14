@@ -10,11 +10,11 @@
     "skipLibCheck": true, // for tensorflow error-free compilation,
     "resolveJsonModule": true
   },
-
   "include": [
     "industrious-assistant/**/*",
     "translator-assistant/**/*",
-    "translator-assistant/**/*.json"
+    "translator-assistant/**/*.json",
+    "agents-test/**/*"
   ],
   "exclude": ["**/*.spec.ts"]
 }
