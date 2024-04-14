@@ -68,8 +68,8 @@ const meetingRoomsAvailabilityTool = new DynamicStructuredTool({
       return "Please provide an end date and time.";
     }
 
-    if (numberOfPeople == null) {
-      return "Please provide the number of people.";
+    if (numberOfPeople == null || numberOfPeople <= 0) {
+      return "Please provide the positive number of people.";
     }
 
     const startDate = new Date(localStartDateTime);
